@@ -29,5 +29,5 @@ submit.onclick = function(){
   }
   console.log(list);
   var ul = document.getElementById('namelist');
-  ul.innerHTMl = list;
+  ul.innerHTML = list;
 };
